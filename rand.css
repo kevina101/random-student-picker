@@ -4,23 +4,36 @@ html {
 }
 
 body {
-  font-size: 24px;
-  width: 25em;
+  font-size: 44px;
+  width: 20em;
   margin: 0 auto;
   padding: 0.5em 0;
-
   height: 100vh;
-
-  font-family: monospace;
-  background-color: lightblue;
+  font-family: cursive;
+  color:#000000;
+  background-color: #FF1818;
   text-align: center;
-}
+  
+  
 
+}
+choice {
+  font-size: 60px;
+  text-transform:uppercase;
+  font-family: arial bold;
+  color: rgba(201, 11, 11, 0.66)
+}
 button {
   font-size: 24px;
-  font-family: monospace;
+  font-family: cursive;
+  color: #FBF7F7;
+  background-color: black;
 }
 
 img {
-  max-width: 60%;
+  max-width: 100%;
+  border-radius:100%;
+}
+ul {
+  list-style: none;
 }
